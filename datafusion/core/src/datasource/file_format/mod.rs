@@ -26,6 +26,7 @@ pub mod file_type;
 pub mod json;
 pub mod options;
 pub mod parquet;
+pub mod orc;
 
 use std::any::Any;
 use std::fmt;

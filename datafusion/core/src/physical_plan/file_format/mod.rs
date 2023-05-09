@@ -24,6 +24,7 @@ mod csv;
 mod file_stream;
 mod json;
 mod parquet;
+mod orc;
 
 pub(crate) use self::csv::plan_to_csv;
 pub use self::csv::{CsvConfig, CsvExec, CsvOpener};
